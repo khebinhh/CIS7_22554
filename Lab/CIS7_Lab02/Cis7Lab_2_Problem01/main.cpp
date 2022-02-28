@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
 
+/*
+    We will use bitwise, logical operators and
+    Boolean variables in C++ programs.
+*/
+
 int main(){
     unsigned int p = 40;                                //binary  40 = 10 1000
     unsigned int q = 17;                                //binary  17 = 01 0001
