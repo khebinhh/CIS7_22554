@@ -2,8 +2,8 @@
 #include <set>
 
 int main(){
-    std::set<int> myset;
-    std::set<int>::iterator it;
+    std::set<int> myset;                //declare set myset
+    std::set<int>::iterator it;         //declare iterator called it
     std::pair<std::set<int>::iterator, bool> ret;
 
     //set some initial values
@@ -16,6 +16,10 @@ int main(){
     myset.insert (it, 25);  //max efficiency inserting
     myset.insert (it, 24);  //max efficiency inserting
     myset.insert (it, 26);  //no max efficiency inserting
+    myset.insert (it, 30);  //already inserted
+    myset.insert (it, 40);  //already inserted
+    myset.insert (it, 50);  //already inserted
+    myset.insert (it, 60);  //max efficiency inserting
 
     int myints[] = {5, 10, 15};     //10 already in set, not inserted
     myset.insert (myints, myints+3);
