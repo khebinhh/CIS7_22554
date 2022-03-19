@@ -2,7 +2,7 @@
 #include <algorithm>
 
 int main(){
-    int myints[] = {1,2,3,4};
+    int myints[] = {11,22,33,4};
 
     std::sort (myints, myints+4);
     std::reverse (myints, myints+4);
