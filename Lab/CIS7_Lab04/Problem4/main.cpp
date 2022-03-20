@@ -25,7 +25,7 @@ void permute(string str, string out){
 
 // Driver code
 int main(){
-    string str = "ABCDEF";
+    string str = "ABCD";
     permute(str, "");
     return 0;
 }
