@@ -28,4 +28,3 @@ int main(){
     string str = "ABCD";
     permute(str, "");
     return 0;
-}
