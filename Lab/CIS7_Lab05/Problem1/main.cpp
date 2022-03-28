@@ -18,7 +18,7 @@ int fact(int n){
 
 //driver code
 int main(){
-    int n = 5, r = 3;
-    cout << nCr(n, r);
+    int n = 7, r = 4;
+    cout << nCr(n, r);  //result = 35
     return 0;
 }
