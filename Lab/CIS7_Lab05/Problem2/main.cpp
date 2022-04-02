@@ -9,12 +9,13 @@ int binomialCoeff(int n, int r){
         return 1;
 
     //recursive
-    return binomialCoeff(n - 1, r - 1) + binomialCoeff(n - 1, r);
+    return binomialCoeff(n - 1, r - 1) + 
+                binomialCoeff(n - 1, r);
 }
 
 //driver code
 int main(){
-    int n = 5, r = 3;
+    int n = 8, r = 4;
     cout << "Value of C(" << n << ", " << r << ") is " << binomialCoeff(n, r);
     return 0;
 }
