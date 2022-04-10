@@ -12,7 +12,7 @@ int main(){
     int roll;
     int face;
     //loop 6000 times
-    for (roll = 1; roll <= 6000; roll++){
+    for (roll = 1; roll <= 1000; roll++){
         face = 1 + rand() % 6;
         //determine face value and increment appropriate counter
         switch (face){
