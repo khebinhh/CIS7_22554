@@ -14,8 +14,9 @@ int main(){
         cout << endl;
         
     for (int i = a; i < ((n)* d + a); i+=d){
-        sum += i ;
-        cout << i << " is the sum";
-        return 0;
+        sum += i;
+        cout << i << ", " << endl;
     }
+    cout << sum << " is the sum";
+    return 0;
 }
