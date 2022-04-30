@@ -1,21 +1,22 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
+
 int fib(int n){
-    int a = 0, b = 1, c, i;
-    if ( n == 0)
-        return a;
+    int f[n+2];
+    int i;
+
+    f[0] = 0;
+    f[1] = 1;
+
     for (i = 2; i <= n; i++){
-        c = a + b;
-        a = b;
-        b = c;
+        f[i] = f[i - 1] + f[i - 2];
     }
-    return b;
+    return f[n];
 }
 
 int main(){
-    int n = 14;
+    int n = 9;
     cout << fib(n);
-
     return 0;
 }
