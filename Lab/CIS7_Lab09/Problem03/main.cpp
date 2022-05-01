@@ -16,7 +16,7 @@ int fib(int n){
 }
 
 int main(){
-    int n = 9;
+    int n = 18;
     cout << fib(n);
     return 0;
 }
